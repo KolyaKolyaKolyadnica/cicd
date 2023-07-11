@@ -15,5 +15,4 @@ jobs:
           node-version: '16'
       - run: npm install -g bats
       - run: bats -v
-      - name: some name for test:someTest
-        run: npm run test:someTest
+      - run: npm run test:someTest
